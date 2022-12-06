@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import NavBar from "../components/layouts/NavBar";
+import NavBar from '../components/layouts/NavBar';
 
 const NoneLayout = ({ children }) => {
     return (

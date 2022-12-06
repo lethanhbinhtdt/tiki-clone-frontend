@@ -1,8 +1,10 @@
+import React from 'react';
+import NoneLayout from '../layouts/NoneLayout';
 function HomePage() {
     return (
-        <div>
+        <NoneLayout>
             <b>Homepage</b>
-        </div>
+        </NoneLayout>
     );
 }
 

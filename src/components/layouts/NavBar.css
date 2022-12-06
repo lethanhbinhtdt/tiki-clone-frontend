@@ -1,12 +1,38 @@
-.navbar-bg {
+.tiki-navbar .navbar-bg {
     background-color: #1A94FF;
 }
 
-.tiki-logo {
+.tiki-navbar .tiki-logo {
     width: 190px;
 }
 
-.tiki-logo img {
+.tiki-navbar .tiki-logo img {
     width: 60px;
     height: 40px;
+}
+
+.tiki-navbar input {
+    border: 0px;
+    padding: 0px 12px;
+    font-size: 13px;
+    border-radius: 2px 0px 0px 2px;
+    height: 40px;
+    width: 626px;
+    outline: none;
+}
+
+.tiki-navbar input:focus{
+    outline: none;
+}
+
+.tiki-navbar .btn-search{
+    width: 120px;
+    height: 40px;
+    background: rgb(13, 92, 182);
+    border-radius: 0px 2px 2px 0px;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    outline: none;
 }
